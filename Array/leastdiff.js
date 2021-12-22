@@ -1,3 +1,5 @@
+//NOTE : array with positive integers ONLY
+
 const leastdiff = (num) => {
 let givenarr = num.sort((a,b) => a-b );
 let minval = givenarr[givenarr.length - 1]
